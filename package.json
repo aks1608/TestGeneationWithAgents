@@ -1,0 +1,34 @@
+{
+  "name": "automation_gitlab_cicd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:seed": "playwright test seed.spec.ts",
+    "test:login": "playwright test tests/login.spec.ts",
+    "test:dashboard": "playwright test tests/dashboard.spec.ts",
+    "test:employees": "playwright test tests/employee-list.spec.ts",
+    "report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/abc-group844034/gitlab_cicd_test_pipeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://gitlab.com/abc-group844034/gitlab_cicd_test_pipeline/issues"
+  },
+  "homepage": "https://gitlab.com/abc-group844034/gitlab_cicd_test_pipeline#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "typescript": "^7.0.2"
+  }
+}
