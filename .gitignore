@@ -2,5 +2,8 @@ node_modules/
 dist/
 playwright-report/
 test-results/
+allure-results/
+allure-report/
+
+# Environment files — keep .env.example, ignore real .env
 .env
-.env.local
